@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+
+
+
+.inter-fitness{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+  
+}
+*{
+    /* color:  rgb(255, 255, 255); */
+    /* width: 1440px; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Shared Styles Start */
+
+
+
+.display-flex{
+    display: flex;
+}
+
+
+.primary-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    text-align: left;
+    
+}
+
+.primary-title{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 0.9rem;
+}
+
+.btn-primary{
+    border: none;
+    width: 14rem;
+    height: 3.375rem;
+    background-color: rgb(230, 83, 60);
+    border-radius: 2.63rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    margin: 0px 14px;
+    
+
+
+}
+
+
+.bg-primary{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+
+/* header{
+    width: 1440px;
+    
+} */
+
+/* Navbar Styles Starts */
+
+.navbar{
+    max-width: 1044px;
+    border: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0 auto;
+    
+}
+.brand{
+    /* width: 132px;
+    height: 43px; */
+    color: rgb(230, 83, 60);
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.nav-links{
+    
+    width: 358px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+
+
+
+.nav-item{
+    list-style: none;
+    /* background: none; */
+    border: none;
+    color: rgb(255, 255, 255); 
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+ 
+
+.btn-home{
+    height: 39px;
+    width: 92px;
+    padding: 0.5rem 1.3rem 0.5rem 1.3rem;
+    border-radius: 2.9rem;
+    background-color: rgb(230, 83, 60);
+}
+
+.banner{
+    width: 65.25rem;
+    /* height: 35.25rem; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;
+    border: 2px solid blueviolet;
+     */
+     margin: 0 auto;
+     
+    
+}
+.banner-get-healthy{
+    width: 37.5rem;
+    /* height: 27.5rem; */
+    border: 2px solid yellowgreen;
+    margin-top: 6rem;
+}
+.banner-title{
+    color: rgb(255, 255, 255);
+    font-size: 4.875rem;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 1.75rem;
+
+}
+#shape{
+    
+    font-weight:900;
+    font-size:4.875rem;
+}
+.banner-get-healthy p{
+    margin-bottom: 1.75rem;
+}
+
+
+.btn-download{
+    width: 224px;
+    height: 54px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border: 1px solid rgb(255, 255, 255);;
+    border-radius: 42px;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    margin: 0rem 0.9rem;
+
+}
+.banner-img{
+    width: 21.87rem;
+
+    border: 1px solid green;
+    margin-right: 1.9rem;
+    
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+    
+    border: 1px solid yellow;
+
+    
+    justify-content: center;
+    align-items: center; 
+     border: 2px solid pink;
+    margin: 0 auto;
+}
+/* .banner-img img{
+    width: 21.82rem;
+    height: 36.25rem;
+    margin-left: 5rem;
+    
+} */
+ .ball{
+    height: 40px;
+    width: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-right: 15px;
+ }
+ .tutorial-badge{
+    width: 206px;
+    height: 96px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    justify-content: center;
+    align-items: center;
+    
+
+
+ }
+ #video{
+    color: rgb(250, 250, 249);
+    font-size: 1.5rem;
+    font-weight: 900;
+ }
+ .tutorial{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+ }
+ #workout-video{
+    color: rgb(255, 255, 255);;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-align: left;
+ }
+ .free{
+    
+    text-align: left;
+ }
+ .workout-badge{
+    align-items: start;
+    text-align: left;
+    padding: 5px 10px 10px 30px;
+ }
+ #badge-1{
+    margin-top: -150px;
+    margin-left: -100px;
+ }
+ #badge-2{
+    
+    position:relative ;
+    top: -50%;
+    left: 70%;
+ }
+ 
+ /* section habits styles starts */
+
+ .section-habits{
+    width: 65.25rem;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 100px;
+ }
+
+ .section-title{
+    
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 14px;
+ }
+ .section-description{
+    text-align: center;
+    
+ }
+.practices{
+    border: 1px green;
+    justify-content: space-around;
+    margin-left: 1.25rem;
+    margin-top: 3rem;
+    border: 1px solid red;
+
+}
+.cards{
+     width: 231px; 
+     height: 274px; 
+    border: 1px solid red;
+    margin: 1rem 0.8rem;
+    
+}
+.cards img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    
+}
+.cards h4{
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+    
+
+}
+.cards h4,p{
+    
+    text-align: center;
+    padding: auto;
+    letter-spacing: 0.3px;
+}
+
+/* Section Easy styles starts */
+
+.section-easy{
+    width: 1060px;
+    /* height: 371px; */
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 41px 32px 30px 54px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.extra-mile{
+    width: 27.69rem;
+    height: 18.125rem;
+    
+    
+}
+.extra-mile >p{
+    margin-bottom: 10px;
+}
+
+.run-image img{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px; 
+    
+}
+
+.run-image{
+    /* margin-left: auto;
+    margin-right: auto;
+    width: 50%; */
+}
+
+.section-bmi-calculator{
+    
+    margin-top: 88px;
+}
+
+.center-alignment{
+    width: 671px;
+    margin: 0 auto;
+    text-align: left;
+    
+    
+}
+.bmi-calculator{
+    width: 100%;
+    background: rgb(34, 34, 34);
+    margin-top: 80px;
+    margin: 0 auto;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  .mb-3{
+    display: grid;
+    grid-template-columns: 1fr 283px ;
+  }
+
+
